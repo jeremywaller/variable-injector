@@ -2,7 +2,7 @@
 
 [![license](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
 [![Build Status](https://github.com/LucianoPAlmeida/variable-injector/workflows/CI/badge.svg?branch=master)](https://github.com/LucianoPAlmeida/variable-injector/actions)
-[![Swift](https://img.shields.io/badge/Swift-5.3-orange.svg)](https://swift.org)
+[![Swift](https://img.shields.io/badge/Swift-5.4-orange.svg)](https://swift.org)
 [![Xcode](https://img.shields.io/badge/Xcode-12-blue.svg)](https://developer.apple.com/xcode)
 [![SPM](https://img.shields.io/badge/SPM-orange.svg)](https://swift.org/package-manager/)
 
@@ -18,7 +18,7 @@ We can manually download the binary from the [releases](https://github.com/Lucia
 ```sh
 CURRENT_DIR="$PWD"
 cd /tmp
-curl -OL https://github.com/LucianoPAlmeida/variable-injector/releases/download/0.3.3/x86_64-apple-macosx.zip
+curl -OL https://github.com/LucianoPAlmeida/variable-injector/releases/download/0.3.4/x86_64-apple-macosx.zip
 unzip x86_64-apple-macosx.zip
 cp -f ./x86_64-apple-macosx/release/variable-injector /usr/local/bin/variable-injector
 
@@ -45,7 +45,7 @@ With that installed and on our `bin` folder, now we can use it.
 For a detailed example of using this, check out the article [Continuous Integration Environment Variables in iOS projects using Swift](https://medium.com/@lucianoalmeida1/continuous-integration-environment-variables-in-ios-projects-using-swift-f72e50176a91) on [Medium](https://medium.com).
 
 **Note**
-If you having issues with Xcode11 use the version 0.3.3 of the tool.
+If you having issues with Xcode11 use the version 0.3.4 of the tool.
 
 You should have a class or struct with your envirionment variables declaration following the $(VAR_NAME) pattern.
 Example:

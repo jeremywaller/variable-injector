@@ -12,8 +12,8 @@ let package = Package(
             targets: ["variable-injector"]),        
     ],
     dependencies: [
-        .package(name: "SwiftSyntax", url: "https://github.com/apple/swift-syntax.git", .exact("0.50300.0")),
-        .package(name: "swift-argument-parser", url: "https://github.com/apple/swift-argument-parser.git", .exact("0.3.1"))
+        .package(name: "SwiftSyntax", url: "https://github.com/apple/swift-syntax.git", .exact("swift-5.4-DEVELOPMENT-SNAPSHOT-2021-03-25-a")),
+        .package(name: "swift-argument-parser", url: "https://github.com/apple/swift-argument-parser.git", .exact("0.4.1"))
     ],
     targets: [
         // Targets are the basic building blocks of a package. A target can define a module or a test suite.
